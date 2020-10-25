@@ -15,9 +15,9 @@ Technologies Used: HTML5, CSS3, JavaScript.
 To install this code, download the zip file and extract the files to a designated directory on your web server or computer without changing the directory/folder structure, or use GitHub's guidelines to clone the repository. 
 
 ## Screenshot of the application:
-![](images/q1.PNG)
+![](images/q1.png)
 
-![](images/q2.PNG)
+![](images/q2.png)
 
 
 ## Link to deployed website:
