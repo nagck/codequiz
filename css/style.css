@@ -1,0 +1,96 @@
+*, *::before, *::after {
+    box-sizing: border-box;       
+    font-family: Gotham Rounded;
+}
+/* nav bar */
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: white;
+    display: inline-block;
+    width: 98vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 6px;
+    
+}
+
+/* main section */
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    background-color: white;
+}
+
+#quizBody {
+    max-width: 98vw;
+    text-align: left;
+    padding: 20vh;
+}
+
+h4 {
+    padding: 30px 8px 10px 8px;
+}
+
+button {
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: Arial;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(245, 124, 208);
+}
+
+#quiz {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    color:blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
